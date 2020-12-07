@@ -14,6 +14,9 @@ namespace Game_form
 {
     public partial class Form1 : Form
     {
+        logic_class Obj_Logic = new logic_class();
+        public object obj_logic;
+
         public Form1()
         {
             InitializeComponent();
@@ -52,6 +55,10 @@ namespace Game_form
             System.Media.SoundPlayer Sound_Object = new System.Media.SoundPlayer(Game_form.Properties.Resources.reload);
 
             Sound_Object.Play();
+
+            // load logic
+
+            Obj_Logic.load_position = 1;
         }
 
         private void btn_playagain_Click(object sender, EventArgs e)
