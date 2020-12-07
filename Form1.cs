@@ -39,7 +39,13 @@ namespace Game_form
             Stream myStream = myAssembly.GetManifestResourceStream("Game_form.Resources.spin.gif");
             Bitmap bmp_Object = new Bitmap(myStream);
             image_showbox.Image = bmp_Object;
+
+            //spin the bullet
+
+            Random Obj_random = new Random();
+            Obj_Logic.spin_position = Obj_random.Next(1, 7);
         }
+            
 
         private void btn_load_Click(object sender, EventArgs e)
         {
