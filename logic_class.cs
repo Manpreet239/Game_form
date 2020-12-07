@@ -12,3 +12,4 @@ namespace Game_form
         public int spin_position;
     }
 }
+ 

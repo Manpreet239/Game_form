@@ -44,6 +44,7 @@ namespace Game_form
 
             Random Obj_random = new Random();
             Obj_Logic.spin_position = Obj_random.Next(1, 7);
+            MessageBox.Show("spin_position " + Obj_Logic.spin_position);
         }
             
 
