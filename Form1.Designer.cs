@@ -140,7 +140,7 @@ namespace Game_form
             this.Controls.Add(this.btn_spin);
             this.Controls.Add(this.btn_load);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "GAME";
             ((System.ComponentModel.ISupportInitialize)(this.image_showbox)).EndInit();
             this.ResumeLayout(false);
 
