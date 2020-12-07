@@ -25,7 +25,7 @@ namespace Game_form
             btn_headshot.Enabled = false;
             btn_shootaway.Enabled = false;
         }
-        
+
 
         private void btn_spin_Click(object sender, EventArgs e)
         {
@@ -46,7 +46,7 @@ namespace Game_form
             Obj_Logic.spin_position = Obj_random.Next(1, 7);
             MessageBox.Show("spin_position " + Obj_Logic.spin_position);
         }
-            
+
 
         private void btn_load_Click(object sender, EventArgs e)
         {
@@ -90,6 +90,13 @@ namespace Game_form
 
             Sound_Object.Play();
 
+            Obj_Logic.head_shot = Obj_Logic.shoot();
+            if (Obj_Logic.head_shot == 1)
+            {
+
+                MessageBox.Show("dead");
+            }
+
         }
 
         private void btn_shootaway_Click(object sender, EventArgs e)
@@ -104,7 +111,7 @@ namespace Game_form
 
             Sound_Object.Play();
 
-
+            
         }
     }
 }
