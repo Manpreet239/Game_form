@@ -92,9 +92,15 @@ namespace Game_form
 
             Obj_Logic.head_shot = Obj_Logic.shoot();
             if (Obj_Logic.head_shot == 1)
+           
             {
 
-                MessageBox.Show("dead");
+                MessageBox.Show("DEAD");
+            }
+            {
+                MessageBox.Show("MISSED");
+
+
             }
 
         }
