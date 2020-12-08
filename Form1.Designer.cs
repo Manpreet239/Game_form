@@ -44,7 +44,7 @@ namespace Game_form
             this.btn_load.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.btn_load.Font = new System.Drawing.Font("Microsoft PhagsPa", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_load.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btn_load.Location = new System.Drawing.Point(12, 404);
+            this.btn_load.Location = new System.Drawing.Point(22, 66);
             this.btn_load.Name = "btn_load";
             this.btn_load.Size = new System.Drawing.Size(82, 39);
             this.btn_load.TabIndex = 0;
@@ -57,7 +57,7 @@ namespace Game_form
             this.btn_spin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.btn_spin.Font = new System.Drawing.Font("Microsoft PhagsPa", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_spin.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btn_spin.Location = new System.Drawing.Point(113, 407);
+            this.btn_spin.Location = new System.Drawing.Point(23, 183);
             this.btn_spin.Name = "btn_spin";
             this.btn_spin.Size = new System.Drawing.Size(81, 37);
             this.btn_spin.TabIndex = 1;
@@ -96,7 +96,7 @@ namespace Game_form
             this.btn_shootaway.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.btn_shootaway.Font = new System.Drawing.Font("Microsoft PhagsPa", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_shootaway.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btn_shootaway.Location = new System.Drawing.Point(370, 407);
+            this.btn_shootaway.Location = new System.Drawing.Point(23, 386);
             this.btn_shootaway.Name = "btn_shootaway";
             this.btn_shootaway.Size = new System.Drawing.Size(166, 37);
             this.btn_shootaway.TabIndex = 4;
@@ -109,7 +109,7 @@ namespace Game_form
             this.btn_headshot.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.btn_headshot.Font = new System.Drawing.Font("Microsoft PhagsPa", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_headshot.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btn_headshot.Location = new System.Drawing.Point(221, 407);
+            this.btn_headshot.Location = new System.Drawing.Point(23, 288);
             this.btn_headshot.Name = "btn_headshot";
             this.btn_headshot.Size = new System.Drawing.Size(129, 37);
             this.btn_headshot.TabIndex = 5;
@@ -119,9 +119,9 @@ namespace Game_form
             // 
             // image_showbox
             // 
-            this.image_showbox.Location = new System.Drawing.Point(72, 39);
+            this.image_showbox.Location = new System.Drawing.Point(200, 50);
             this.image_showbox.Name = "image_showbox";
-            this.image_showbox.Size = new System.Drawing.Size(425, 300);
+            this.image_showbox.Size = new System.Drawing.Size(393, 285);
             this.image_showbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.image_showbox.TabIndex = 6;
             this.image_showbox.TabStop = false;
