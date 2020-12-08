@@ -11,7 +11,7 @@ namespace Game_form
         public int load_position;
         public int spin_position;
         public int head_shot;
-
+        public int chances = 1;
 
 
         public int shoot()

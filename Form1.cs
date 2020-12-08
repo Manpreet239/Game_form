@@ -117,7 +117,36 @@ namespace Game_form
 
             Sound_Object.Play();
 
-            
+            {
+                if (Obj_Logic.chances <= 2)
+                {
+                    Obj_Logic.head_shot = Obj_Logic.shoot();
+                    if (Obj_Logic.head_shot == 1)
+                    {
+                        MessageBox.Show("Don't worry, you are safe");
+                        btn_shootaway.Enabled = false;
+                        btn_headshot.Enabled = false;
+
+                    }
+                    else
+                    {
+                        MessageBox.Show("Empty Shot");
+                    }
+                    Obj_Logic.chances++;
+                    if (Obj_Logic.chances == 3)
+                    {
+                        MessageBox.Show(" Lifelines finished");
+                        btn_shootaway.Enabled = false;
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Lifelines over");
+                    btn_shootaway.Enabled = false;
+                }
+
+            }
+
         }
     }
 }
