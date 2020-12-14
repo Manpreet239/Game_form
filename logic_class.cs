@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Game_form
 {
-   public class logic_class
+    public class logic_class
     {
         public int load_position;
         public int spin_position;
